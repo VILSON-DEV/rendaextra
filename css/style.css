@@ -170,3 +170,31 @@ footer{
         width:100%;
     }
 }
+@media screen and (max-width:420px){
+    #base #titulo h1{
+        font-size: 1.6em;
+        margin-bottom:5px;
+    }
+    #base #titulo p{
+        font-size: 1.1em;
+    }
+    .produto{
+        min-width: 150px;
+        max-width:310px;
+        width:100%;
+    }
+}
+@media screen and (max-width:300px){
+    #base #titulo h1{
+        font-size: 1.6em;
+        margin-bottom:5px;
+    }
+    #base #titulo p{
+        font-size: 1.1em;
+    }
+    .produto{
+        min-width: 150px;
+        max-width:300px;
+        width:100%;
+    }
+}
